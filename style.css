@@ -1,0 +1,298 @@
+/*
+Theme Name: Madeline's Party
+Description: Child theme of the Wordpress 2013 style with adjustments for colors.
+Version: 1.0
+Template: twentythirteen
+*/
+@import url(../twentythirteen/style.css);
+
+/**
+ * Section number matches the numbering in the twentythirteen theme.
+ */
+ 
+/**
+ * Color reference
+ * Footer: #88d0e8
+ * Nav Menu Background: #000
+ * Nav Text: #fff
+ * Nav Selected Background: #404040
+ * Blue Highlight: #88d0e8
+ */
+
+/**
+ * 1.0 Reset
+ */
+
+html,
+button,
+input,
+select,
+textarea {
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+body {
+	color:#333333;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+h1 {
+	margin-top: 0;
+}
+
+/**
+ * 3.0 Basic Structure
+ * ----------------------------------------------------------------------------
+ */
+
+.site {
+	background-color: #fff;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+	margin: 0 auto;
+	max-width: 1600px;
+	width: 100%;
+}
+
+/**
+ * 4.0 Header
+ * ----------------------------------------------------------------------------
+ */
+
+/**
+ * 4.1 Site Header
+ * ----------------------------------------------------------------------------
+ */
+
+.site-header .home-link {
+	color: #000;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+.site-header .site-title:hover {
+	text-decoration: none;
+}
+
+.site-description {
+	font-weight: bold;
+	text-shadow: 1px 1px 2px white, 1px -1px 2px white, -1px 1px 2px white, -1px -1px 2px white;
+}
+
+
+/**
+ * 4.2 Navigation
+ * ----------------------------------------------------------------------------
+ */
+ 
+.nav-menu li a {
+	color: #eee;
+	font-size: 15px;
+}
+
+.nav-menu li:hover > a,
+.nav-menu li a:hover,
+.nav-menu li:focus > a,
+.nav-menu li a:focus {
+	background-color: #404040;
+	color: #eee;
+}
+
+.nav-menu .sub-menu,
+.nav-menu .children {
+	background-color: #220e10;
+	border: 2px solid #f7f5e7;
+}
+
+ul.nav-menu ul a,
+.nav-menu ul ul a {
+	color: #fff;
+}
+
+ul.nav-menu ul a:hover,
+.nav-menu ul ul a:hover,
+ul.nav-menu ul a:focus,
+.nav-menu ul ul a:focus {
+	background-color: #404040;
+}
+
+.nav-menu .current_page_item > a,
+.nav-menu .current_page_ancestor > a,
+.nav-menu .current-menu-item > a,
+.nav-menu .current-menu-ancestor > a {
+	color: #fff;
+	background-color: #404040;
+	font-style: normal;
+	font-weight: bold;
+}
+
+/* Navbar */
+.navbar {
+	background-color: #000;
+	text-transform: uppercase;
+}
+
+.site-header .search-field {
+	background-color: #fff;
+	background-image: url(images/search-icon.png);
+	border: 2px solid #88d0e8;
+	border-radius: 18px;
+}
+
+.site-header .search-field:focus {
+	background-image: url(images/search-icon.png);
+	border: 2px solid #88d0e8;
+}
+
+/**
+ * 5.0 Content
+ * ----------------------------------------------------------------------------
+ */
+
+/**
+ * 5.1 Entry Header
+ * ----------------------------------------------------------------------------
+ */
+
+.entry-header {
+	margin-bottom: 0px;
+}
+
+/**
+ * 5.3 Entry Content
+ * ----------------------------------------------------------------------------
+ */
+
+.entry-content {
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens:         none;
+	word-wrap: normal;
+}
+
+/**
+ * 6.0 Sidebar
+ * ----------------------------------------------------------------------------
+ */
+
+/**
+ * 6.1 Widgets
+ * ----------------------------------------------------------------------------
+ */
+
+.widget {
+	background-color: white;
+	font-size: 14px;
+	-webkit-hyphens: auto;
+	-moz-hyphens:    auto;
+	-ms-hyphens:     auto;
+	hyphens:         auto;
+	margin: 0 0 10px;
+	padding: 0 20px 20px 20px;
+	word-wrap: break-word;
+}
+
+.widget .widget-title {
+	font-style: normal;
+	font-weight: bold;
+}
+
+.widget ul,
+.widget ol {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border-top: 1px solid #D8D8F0;
+}
+
+.widget li {
+	padding: 5px 0;
+	border-bottom: 1px solid #D8D8F0;
+}
+
+.widget .children li:last-child {
+	padding-bottom: 0;
+}
+
+.widget li > ul,
+.widget li > ol {
+	margin-left: 20px;
+}
+
+.widget a {
+	color: #bc360a;
+}
+
+.widget a:hover {
+	color: #ea9629;
+}
+  
+/** 
+ * 7.0 Footer
+ * ----------------------------------------------------------------------------
+ */
+
+.site-footer {
+	background-color: #88d0e8;
+	color: #ffffff;
+	font-size: 14px;
+	text-align: center;
+}
+
+.site-footer a:link, .site-footer a:visited {
+	color: #ffffff;
+}
+.site-footer a:hover{
+	color: #000000;
+	text-decoration: none;
+}
+
+.site-footer .sidebar-container {
+	background-color: #88d0e8;
+}
+
+.site-footer .widget {
+	background: transparent;
+	color: #fff;
+}
+
+.site-footer .widget a:link, .site-footer .widget a:visited {
+	color: #ffffff;
+}
+.site-footer .widget a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+.site-footer .widget-title,
+.site-footer .widget-title a,
+.site-footer .wp-caption-text {
+	color: #fff;
+}
+
+/**
+ * 8.0 Media Queries
+ * ----------------------------------------------------------------------------
+ */
+
+@media (max-width: 643px) {
+
+	.menu-toggle,
+	.menu-toggle:hover,
+	.menu-toggle:focus,
+	.menu-toggle:active {
+		color: white;
+	}
+}
