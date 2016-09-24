@@ -183,6 +183,47 @@ ul.nav-menu ul a:focus,
 }
 
 /**
+ * 5.7 Post/Paging Navigation
+ * ----------------------------------------------------------------------------
+ */
+ 
+.navigation a {
+	color: black;
+}
+
+.navigation a:hover {
+	color: #88d0e8;
+	text-decoration: none;
+}
+
+.paging-navigation {
+	background-color: white;
+	padding: 10px 0;
+}
+
+.paging-navigation .meta-nav {
+	background-color: black;
+	border-radius: 50%;
+	color: #fff;
+	display: inline-block;
+	font-size: 26px;
+	padding: 3px 0 8px;
+	text-align: center;
+	width: 50px;
+}
+
+.paging-navigation .nav-previous .meta-nav {
+	margin-right: 10px;
+	padding: 0px 0 3px;
+	width: 40px;
+}
+
+.paging-navigation a:hover .meta-nav {
+	background-color: #88d0e8;
+	text-decoration: none;
+}
+
+/**
  * 6.0 Sidebar
  * ----------------------------------------------------------------------------
  */
