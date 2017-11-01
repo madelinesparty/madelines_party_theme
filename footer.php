@@ -12,7 +12,7 @@
 
 			<div class="site-info">
 				<?php do_action( 'mp-theme_credits' ); ?>
-				<?php _e( 'Copyright&copy; 2016 <em>Madeline&apos;s Party</em>, a 501(c)3 non-profit organization', 'mp-theme' ); ?></a>
+				<?php _e( 'Copyright&copy; 2017 <em>Madeline&apos;s Party</em>, a 501(c)3 non-profit organization', 'mp-theme' ); ?></a>
 			</div><!-- .site-info -->
 		</footer><!-- #colophon -->
 	</div><!-- #page -->
